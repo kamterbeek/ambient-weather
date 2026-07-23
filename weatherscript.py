@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = 'fe8b3049b2ab4b6f8b3049b2ab2b6f04'
-STATION_ID = 'KCOBOULD1002'
+API_KEY = os.getenv("WEATHER_API_KEY")
+STATION_ID = os.getenv("WEATHER_STATION_ID")
 BASE_URL = 'https://api.weather.com/v2/pws/observations/current'
 
 def fetch_weather_underground_data():
