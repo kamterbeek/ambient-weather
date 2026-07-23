@@ -2,6 +2,7 @@ import requests
 import os
 from dotenv import load_dotenv
 
+load dotenv()
 API_KEY = 'fe8b3049b2ab4b6f8b3049b2ab2b6f04'
 STATION_ID = 'KCOBOULD1002'
 BASE_URL = 'https://api.weather.com/v2/pws/observations/current'
